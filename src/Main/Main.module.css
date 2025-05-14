@@ -1,0 +1,104 @@
+.main {
+  width: 80%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  background-color: #2266DD;
+  border: 1px solid #2266DD;
+  color: #FFFFFF;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #164AA4;
+  border: 1px solid #164AA4;
+}
+.button:active {
+  background-color: #0B2f6E;
+  border: 1px solid #0B2f6E;
+}
+
+.headerText {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.textInput {
+  background-color: #111111;
+  border: 1px solid #656565;
+  color: #FFFFFF;
+}
+
+.trainSection {
+  margin: 5rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.currVocabListHighlight {
+  color: #FFBB22;
+}
+
+.currVocabDisplay {
+  text-align: center;
+  font-size: 3rem;
+  margin: 3rem 0rem 0rem 0rem;
+}
+
+.inputText {
+  font-size: 3rem;
+  text-align: center;
+  background-color: #111111;
+  border: 1px solid #656565;
+  color: #FFFFFF;
+}
+
+.correct {
+  color: #00FF00;
+}
+
+.wrong {
+  color: #FF0000;
+}
+
+.default {
+  color: #FFFFFF;
+}
+
+.buttonWrap {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.btnTrain {
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.vocabListsSection {
+  margin: 5rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nameInputWrap {
+  display: flex;
+  margin: 2rem 0rem 0rem 0rem;
+}
+
+.nameInput {
+  font-size: 3rem;
+}
+
+.btnCreate {
+  padding: 0rem 1rem;
+  font-size: 2rem;
+}/*# sourceMappingURL=Main.module.css.map */

@@ -1,0 +1,28 @@
+@use "../global-vars-classes" as *
+
+.header 
+    background-color: $primary-bg-black-400
+    display: flex
+    justify-content: space-between
+    align-items: center
+
+.brand
+    font-size: 5rem
+    margin: 1rem 20rem
+    color: $secondary-text-yellow
+    &:hover
+        cursor: pointer
+.navList
+    display: flex
+    justify-content: center
+    align-items: center
+    font-size: 2rem
+    margin: 1rem 20rem
+
+.navLink
+    padding: 1em
+    &:hover
+        cursor: pointer
+        background-color: $primary-bg-black-300
+    &:active
+        background-color: $primary-bg-black-200

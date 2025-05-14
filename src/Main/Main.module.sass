@@ -1,0 +1,88 @@
+@import '../global-vars-classes'
+
+.main
+    width: 80%
+    max-width: 1400px
+    margin: 0 auto
+    display: flex
+    flex-direction: column
+    align-items: center
+
+.button
+    background-color: $secondary-bg-blue    
+    border: 1px solid $secondary-bg-blue 
+    color: $primary-text-white
+    &:hover
+        cursor: pointer
+        background-color: $secondary-bg-blue-600
+        border: 1px solid $secondary-bg-blue-600
+    &:active
+        background-color: $secondary-bg-blue-700
+        border: 1px solid $secondary-bg-blue-700
+        
+.headerText
+    font-size: 3rem
+    text-align: center
+
+.textInput
+    background-color: $primary-bg-black
+    border: 1px solid $primary-bg-black-100
+    color: $primary-text-white
+
+// Train Section
+.trainSection
+    margin: 5rem 5rem
+    display: flex
+    flex-direction: column
+    gap: 2rem
+
+.currVocabListHighlight
+    color: $secondary-text-yellow
+
+.currVocabDisplay
+    text-align: center
+    font-size: 3rem
+    margin: 3rem 0rem 0rem 0rem
+
+.inputText
+    font-size: 3rem
+    text-align: center
+    background-color: $primary-bg-black
+    border: 1px solid $primary-bg-black-100
+    color: $primary-text-white
+.correct
+    color: #00FF00
+.wrong
+    color: #FF0000
+.default
+    color: $primary-text-white
+
+.buttonWrap
+    display: flex
+    gap: 2rem
+    justify-content: center
+
+.btnTrain
+    font-size: 2rem
+    padding: 1rem
+    border-radius: 0.5rem
+
+
+// VocabLists Section
+.vocabListsSection
+    margin: 5rem 5rem
+    display: flex
+    flex-direction: column
+    align-items: center
+
+.nameInputWrap
+    display: flex
+    margin: 2rem 0rem 0rem 0rem
+
+.nameInput
+    font-size: 3rem
+
+.btnCreate
+    padding: 0rem 1rem
+    font-size: 2rem
+// Vocabs Section
