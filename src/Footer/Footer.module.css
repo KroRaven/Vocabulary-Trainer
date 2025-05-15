@@ -1,0 +1,9 @@
+.Footer {
+  background-color: #242424;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  margin: 5rem 0rem 0rem 0rem;
+  padding: 3rem;
+}/*# sourceMappingURL=Footer.module.css.map */

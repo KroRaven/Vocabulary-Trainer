@@ -1,10 +1,10 @@
-// import styles from './_.module.css'
+import styles from './Footer.module.css'
 
 function Footer() {
 
     return(
-        <footer>
-           footer
+        <footer className={styles.Footer}>
+           Made by Jolty
         </footer>
     )
 }

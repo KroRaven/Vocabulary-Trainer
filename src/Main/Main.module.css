@@ -1,36 +1,37 @@
 .main {
   width: 80%;
-  max-width: 1400px;
+  max-width: 800px;
   margin: 0 auto;
+  font-size: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.button {
+.button, .btnAdd, .vocabListsEditButton, .btnCreate, .btnTrain {
   background-color: #2266DD;
   border: 1px solid #2266DD;
   color: #FFFFFF;
 }
-.button:hover {
+.button:hover, .btnAdd:hover, .vocabListsEditButton:hover, .btnCreate:hover, .btnTrain:hover {
   cursor: pointer;
   background-color: #164AA4;
   border: 1px solid #164AA4;
 }
-.button:active {
+.button:active, .btnAdd:active, .vocabListsEditButton:active, .btnCreate:active, .btnTrain:active {
   background-color: #0B2f6E;
   border: 1px solid #0B2f6E;
+}
+
+.textInput, .vocabInput, .nameInput, .inputText {
+  background-color: #111111;
+  border: 1px solid #656565;
+  color: #FFFFFF;
 }
 
 .headerText {
   font-size: 3rem;
   text-align: center;
-}
-
-.textInput {
-  background-color: #111111;
-  border: 1px solid #656565;
-  color: #FFFFFF;
 }
 
 .trainSection {
@@ -46,16 +47,14 @@
 
 .currVocabDisplay {
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
+  color: #FFBB22;
   margin: 3rem 0rem 0rem 0rem;
 }
 
 .inputText {
-  font-size: 3rem;
   text-align: center;
-  background-color: #111111;
-  border: 1px solid #656565;
-  color: #FFFFFF;
+  font-size: 3rem;
 }
 
 .correct {
@@ -72,8 +71,8 @@
 
 .buttonWrap {
   display: flex;
-  gap: 2rem;
   justify-content: center;
+  gap: 2rem;
 }
 
 .btnTrain {
@@ -101,4 +100,91 @@
 .btnCreate {
   padding: 0rem 1rem;
   font-size: 2rem;
+}
+
+.vocabListsDisplay {
+  margin: 2rem 0rem;
+  border: 2px solid #383838;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.vocabListsElement {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vocabListsEditButtonWrap {
+  display: flex;
+  gap: 1rem;
+}
+
+.vocabListsEditButton {
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.vocabListsName {
+  font-size: 2rem;
+}
+
+.vocabsSection {
+  margin: 3rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vocabInputWrap {
+  margin: 2rem 0rem 0rem 0rem;
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width: 1000px) {
+  .vocabInputWrap {
+    flex-direction: column;
+    width: 48rem;
+  }
+}
+
+.vocabInput {
+  font-size: 3rem;
+}
+
+.btnAdd {
+  padding: 0rem 1rem;
+  font-size: 2rem;
+}
+
+.vocabsExpandable {
+  border: 1px solid #656565;
+  margin: 1rem 0rem 0rem 0rem;
+  width: 100%;
+}
+
+.vocabsSummary {
+  font-size: 3rem;
+}
+
+.vocabsDisplay {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  border-top: 1px solid #656565;
+}
+
+.vocabElement {
+  display: grid;
+  grid-template-columns: 3fr 3fr 1fr;
+  align-items: center;
+}
+
+.vocabText {
+  font-size: 2rem;
+  overflow: auto;
 }/*# sourceMappingURL=Main.module.css.map */
